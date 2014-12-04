@@ -1,0 +1,215 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<script language="javascript" type="text/javascript" src="jquery-1.8.3.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+ <script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
+ 
+ <style>
+ body
+{
+background-color:black;
+}
+
+body:hover{
+cursor: pointer;
+}
+
+.icon
+{
+	
+	width: 80px;
+
+}
+
+.icon:hover
+{
+	
+	cursor: pointer;
+
+}
+
+
+.icons {
+position: abolute;
+	margin-top: 700px;
+	float: left;
+}
+
+#happy_color {
+position: absolute;
+
+	margin-left: -400px;
+	z-index: -1;
+
+}
+
+#happy_pic {
+
+	position: absolute;
+	margin-top: 100px;
+	margin-left: 80px;
+	width:800px;
+	border: 5px solid gray;
+	border-radius:15px;
+	opacity: 0.8;
+}
+
+
+#close_icon {
+position: absolute;
+margin-left: 950px;
+	width:100px;
+	float: left;
+	opacity: 0.5;
+}
+
+.demo {
+  background: #969696;
+  width: 400px;
+  height:300px;
+  color: white;
+  font-size: 50px;
+  font-family: verdana;
+    position:absolute;
+}
+#debug
+{
+    position:absolute;
+    top:350px;
+}
+
+</style>
+
+
+<script>
+
+var color = "on";
+
+function ColorToggle() {
+	var MyElement = document.getElementById("happy_color");
+	if (color == "on") {
+		MyElement.style.display = "none";
+		document.getElementById("animation_icon").style.opacity = 0.5;
+		color = "off";
+		}
+	else if (color == "off") {
+	 MyElement.style.display = "inline";
+	 document.getElementById("animation_icon").style.opacity = 1.0;
+	 color = "on";
+	 } 
+	 
+}
+
+var img = "on";
+
+function ImageToggle() {
+	var MyElement = document.getElementById("happy_pic");
+	if (img == "on") {
+		MyElement.style.display = "none";
+		document.getElementById("image_icon").style.opacity = 0.5;
+		img = "off";
+		}
+	else if (img == "off") {
+	 MyElement.style.display = "inline";
+	 document.getElementById("image_icon").style.opacity = 1.0;
+	 img = "on";
+	 } 
+	 
+}
+
+
+var music = 'on';
+
+function MusicToggle() {
+	var MyElement = document.getElementById("happy_music");
+	if (music == 'on') {
+		MyElement.pause();
+		document.getElementById("music_icon").style.opacity = 0.5;
+		music = 'off';
+	} else if (music == 'off') {
+	 MyElement.play();
+	 document.getElementById("music_icon").style.opacity = 1.0;
+	 music = 'on';
+	 
+	 }
+}
+
+
+var amb = 'on';
+
+function AmbienceToggle() {
+	var MyElement = document.getElementById("happy_amb");
+	if (amb == 'on') {
+		MyElement.pause();
+		document.getElementById("ambience_icon").style.opacity = 0.5;
+		amb = 'off';
+	} else if (amb == 'off') {
+	 MyElement.play();
+	 document.getElementById("ambience_icon").style.opacity = 1.0;
+	 amb = 'on';
+	 
+	 
+	 }
+}
+
+
+var imagesArray = ["slideshow/happy.happy1.jpg", "slideshow/happy.happy2.jpg", "mouse.jpg", "alligator.jpg", "fish.jpg", "parrot.jpg", "cat.jpg"];
+
+
+//create a function named displayImage
+//it should not have any values passed into it
+
+function displayImage(){
+
+    //the first statement should generate a random number in the range 0 to 6 (the subscript values of the image file names in the imagesArray)
+    var num = Math.floor(Math.random() * 7); // 0...6
+    //the second statement display the random image from the imagesArray array in the canvas image using the random number as the subscript value
+    document.canvas.src = imagesArray[num];
+
+}
+
+
+
+</script>
+
+
+
+</head>
+	
+<body>
+
+<div class="icons">
+<img class="icon" id="animation_icon" onclick="ColorToggle();" src="images/icon-animation.png" border="0"></img>
+
+<img class="icon" id="music_icon" onclick="MusicToggle();" src="images/icon_music.png" border="0"></img>
+
+<img class="icon" id="ambience_icon" onclick="AmbienceToggle();" src="images/icon-ambience.png" border="0"></img>
+
+<img class="icon" id="image_icon" onclick="ImageToggle();" src="images/icon-image.png" border="0"></img>
+</div>
+
+<img id="happy_pic" src="slideshow/sorrow/sorrow1.jpg"></img>
+
+
+<a href="home.html"><img id="close_icon" src="images/close.png"></img></a>
+
+
+<object id="happy_color" data="Sorrow_color.gif" type="text/html" width="1500px" style="position: absolute; margin-top: -150px; overflow:hidden;"></object>
+
+<br/>
+
+
+<audio style="margin-top: 1500px;" id="happy_music" controls loop autoplay>
+  <source src="audio/Sorrow.mp3" type="audio/mpeg" />
+  Your browser does not support the audio tag.
+</audio> 
+
+ 
+<audio style="margin-top: 1500px;" id="happy_amb" controls loop autoplay>
+  <source src="audio/crying.mp3" type="audio/mpeg" />
+  Your browser does not support the audio tag.
+</audio> 
+ 
+ 
+ </body>

@@ -1,0 +1,70 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<link rel="stylesheet" type="text/css" href="style.css">
+<script type="text/javascript" src="javascript.js"></script>
+<script language="javascript" type="text/javascript" src="jquery-1.8.3.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+ <script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
+
+
+
+	</head>
+	
+<body>
+
+<div id="header">IT FEELS LIKE WHEN:</div>
+
+<table class="emotions">
+<tr>
+  <td><div class="imgWrap">
+  <img class="img_1" id="choice_img1" onclick="togglecheck('choice_img1');" src="slideshow/happy/happychoice1.png"></img>
+  <p class="imgDescription" id="choice1">YOU ARE ON VACATION.</p>
+</div></td>
+  <td><div class="imgWrap">
+  <img class="img_1" id="choice_img2" onclick="togglecheck('choice_img2');" src="slideshow/happy/happychoice2.png"></img>
+  <p class="imgDescription" id="choice2">YOU HAD A SATISFYING MEAL.</p>
+</div>
+</td>
+</tr>
+<tr>
+<td><div class="imgWrap">
+  <img class="img_2" id="choice_img3" onclick="togglecheck('choice_img3');" src="slideshow/happy/happychoice3.png"></img>
+  <p class="imgDescription" id="choice3">YOU ARE JUST REALLY FEELING IT.</p>
+</div>
+</td>
+  <td><div class="imgWrap">
+  <img class="img_2" id="choice_img4" onclick="togglecheck('choice_img4');" src="slideshow/happy/happychoice4.png"></img>
+  <p class="imgDescription" id="choice4">LOVE IS AROUND.</p>
+</div>
+</td>
+</tr>
+<tr>
+<td><div class="imgWrap">
+  <img class="img_3" id="choice_img5" onclick="togglecheck('choice_img5');" src="slideshow/happy/happychoice5.png"></img>
+  <p class="imgDescription" id="choice5">YOU HAVE GOOD COMPANY.</p>
+</div>
+</td>
+  <td><div class="imgWrap">
+  <img class="img_3" id="choice_img6" onclick="togglecheck('choice_img6');" src="slideshow/happy/happychoice6.png"></img>
+  <p class="imgDescription" id="choice6">YOU JUST HAD A NICE WORKOUT.</p>
+</div>
+</td>
+  </tr>
+
+</table> 
+
+<div class="arrowwrap">	
+<a href="home.html"><img class="nav_arrow" id="arrow_left" src="images/nav_arrow1.png"></img></a>
+<p class="arrow_text">BACK</p>
+</div>
+
+<div class="arrowwrap">	
+<img class="nav_arrow" id="arrow_right" src="images/nav_arrow2.png" onclick="checkselection();"></img>
+<p class="arrow_text" id="arrow_text_right">GENERATE MOOD</p>
+</div>
+
+</body>
+</html>
+

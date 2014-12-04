@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VisualLightBox>
+    <Gallery version="2.5">
+        <Settings>
+            <AppName>WOW Slider</AppName>
+            <AppUrlS>WOWSlider.com</AppUrlS>
+            <AppVersion>5.2</AppVersion>
+            <AutoPlay>true</AutoPlay>
+            <Captions>false</Captions>
+            <CaptionsEffect>slide</CaptionsEffect>
+            <Controls>false</Controls>
+            <GalleryName>happy2</GalleryName>
+            <GallerySuffix>1</GallerySuffix>
+            <HtmlCharset>UTF-8</HtmlCharset>
+            <ImageAspectRatio>true</ImageAspectRatio>
+            <ImageEffect>kenburns</ImageEffect>
+            <ImageFillColor>#FFFFFF</ImageFillColor>
+            <ImageHeight>1000</ImageHeight>
+            <ImageQuality>90</ImageQuality>
+            <ImageShrink2>false</ImageShrink2>
+            <ImageStretch>true</ImageStretch>
+            <ImageTemplate>/Applications/WOWSlider.app/Contents/Resources/templates/backgnd/strict/</ImageTemplate>
+            <ImageTemplateName>Strict</ImageTemplateName>
+            <ImageWidth>1500</ImageWidth>
+            <Images>true</Images>
+            <JoomlaType>2.5</JoomlaType>
+            <OneLoop>false</OneLoop>
+            <OrderRandom>false</OrderRandom>
+            <PlayPause>false</PlayPause>
+            <Preloader>false</Preloader>
+            <PublishFileName>/Users/avave19890808/Documents/School Work/Winter 2013/d.media/project 3/Final Product/slideshow/happy/happy2.html</PublishFileName>
+            <PublishIndex>happy2.html</PublishIndex>
+            <PublishPath>/Users/avave19890808/Documents/School Work/Winter 2013/d.media/project 3/Final Product/slideshow/happy</PublishPath>
+            <PublishPreview>true</PublishPreview>
+            <PublishType>file</PublishType>
+            <RelativePath>false</RelativePath>
+            <ShowBullets>0</ShowBullets>
+            <ShowTooltips>true</ShowTooltips>
+            <SlideshowDelay>20</SlideshowDelay>
+            <SlideshowDuration>20</SlideshowDuration>
+            <SoundEnable>0</SoundEnable>
+            <SoundFileName></SoundFileName>
+            <StopOnHover>false</StopOnHover>
+            <TemplateName>strict</TemplateName>
+            <ThumbAlign>bottom</ThumbAlign>
+            <ThumbFormat>jpg</ThumbFormat>
+            <ThumbHeight>48</ThumbHeight>
+            <ThumbQuality>90</ThumbQuality>
+            <ThumbWidth>0</ThumbWidth>
+            <Thumbnails>false</Thumbnails>
+            <TooltipPos>bottom</TooltipPos>
+            <noFrame>1</noFrame>
+        </Settings>
+        <Images RelativePath="false">
+            <Image>
+                <url>/Users/avave19890808/Documents/School Work/Winter 2013/d.media/project 3/Final Product/slideshow/happy/13-scientifically-proven-ways-to-be-a-happier-person.jpg</url>
+                <title>happy2</title>
+            </Image>
+            <Image>
+                <url>/Users/avave19890808/Documents/School Work/Winter 2013/d.media/project 3/Final Product/slideshow/happy/cloud-colorful-cute-happy-rainbow-Favim.com-41754.jpg</url>
+                <title>cloud-colorful-cute-happy-rainbow-Favim.com-41754</title>
+            </Image>
+            <Image>
+                <url>/Users/avave19890808/Documents/School Work/Winter 2013/d.media/project 3/Final Product/slideshow/happy/Cute-Happy-Child.jpg</url>
+                <title>Cute-Happy-Child</title>
+            </Image>
+            <Image>
+                <url>/Users/avave19890808/Documents/School Work/Winter 2013/d.media/project 3/Final Product/slideshow/happy/happy.jpg</url>
+                <title>happy</title>
+            </Image>
+            <Image>
+                <url>/Users/avave19890808/Documents/School Work/Winter 2013/d.media/project 3/Final Product/slideshow/happy/happy+l0ve.jpg</url>
+                <title>happy+l0ve</title>
+            </Image>
+            <Image>
+                <url>/Users/avave19890808/Documents/School Work/Winter 2013/d.media/project 3/Final Product/slideshow/happy/large.jpg</url>
+                <title>large</title>
+            </Image>
+            <Image>
+                <url>/Users/avave19890808/Documents/School Work/Winter 2013/d.media/project 3/Final Product/slideshow/happy/Minions-despicable-me-minions-35063166-1280-800.jpg</url>
+                <title>Minions-despicable-me-minions-35063166-1280-800</title>
+            </Image>
+        </Images>
+    </Gallery>
+</VisualLightBox>

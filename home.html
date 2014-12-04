@@ -1,0 +1,56 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<link rel="stylesheet" type="text/css" href="style.css">
+<script type="text/javascript" src="javascript.js"></script>
+<script language="javascript" type="text/javascript" src="jquery-1.8.3.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+ <script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
+
+
+<script type="text/javascript">
+ 	$(document).ready(function(){
+      	$('#test-area').mouseout(function(){
+           	$('#mycursor').hide();
+           	return >false;
+      	});
+      	$('#test-area').mouseenter(function(){
+           	$('#mycursor').show();
+           	return >false;
+      	});
+      	$('#test-area').mousemove(function(e){
+           	$('#mycursor').css('left', e.clientX + 20).css('top', e.clientY - 7);
+      	});
+});
+
+
+
+</script>
+
+
+	</head>
+	
+<body>
+
+<div id="header">I AM FEELING:</div>
+
+<table class="emotions">
+<tr>
+  <td><a href="happy.html"><img class="img_1" id="emo1" src="images/emotion1.png" width="370px"></img></a></td>
+  <td><img class="img_1" id="emo2" src="images/emotion2.png" width="370px" onclick="pretend();"></img></td>
+  <td><img class="img_1" id="emo3" src="images/emotion3.png" width="370px" onclick="pretend();"></img></td>
+</tr>
+<tr>
+  <td><img class="img_2" id="emo4" src="images/emotion4.png" width="370px" onclick="pretend();"></img></td>
+  <td><img class="img_2" id="emo5" src="images/emotion5.png" width="370px" onclick="pretend();"></img></td>
+  <td><img class="img_2" id="emo6" src="images/emotion6.png" width="370px" onclick="pretend();"></img></td>
+</tr>
+</table> 
+	
+
+	
+
+</body>
+</html>
+

@@ -1,0 +1,434 @@
+div
+{
+cursor: url('cursor.png'),   
+            url('cursors/customMoveCursor.cur'),       
+            move; 
+}
+
+body
+{
+background-color:black;
+}
+
+
+#test-area {
+ 	
+ 	cursor: url(cursor.png), none;
+}
+
+#mycursor {
+ 	cursor: none;
+ 	
+ 	background: url("cursor.png") no-repeat left top;
+ 	position: absolute;
+ 	display: none;
+ 	top: 0;
+ 	left: 0;
+ 	z-index: 10000;
+}
+
+#header {
+font-family: "FuturaLight", Helvetica;
+color: white;
+font-size: 79px;
+opacity: 0.3;
+margin-left: 12%;
+margin-top: 20px;
+}
+
+.img_1:hover
+{
+	cursor: url('images/cursor.png');
+	opacity:1.0;
+
+}
+
+.img_2:hover
+{
+	cursor: url("images/cursor.png");
+	opacity:1.0;
+}
+
+.img_3:hover
+{
+cursor: url("images/cursor.png");
+	opacity:1.0;
+}
+
+#emo1:hover
+{
+	position:absolute;
+	z-index:2;
+	width:400px;
+	margin-top: -200px;
+}
+
+
+#emo2:hover
+{
+	position:absolute;
+	z-index:2;
+	width:400px;
+	margin-top: -200px;
+	margin-left: -15px;
+}
+
+#emo3:hover
+{
+	position:absolute;
+	z-index:2;
+	width:400px;
+	margin-top: -200px;
+	margin-left: -30px;
+}
+
+#emo4:hover
+{
+	position:absolute;
+	z-index:2;
+	width:400px;
+	margin-top: -220px;
+}
+
+#emo5:hover
+{
+	position:absolute;
+	z-index:2;
+	width:400px;
+	margin-top: -220px;
+	margin-left: -15px;
+}
+
+#emo6:hover
+{
+	position:absolute;
+	z-index:2;
+	width:400px;
+	margin-top: -220px;
+	margin-left: -30px;
+}
+
+
+.img_1
+{
+ margin-top: -18px;
+ padding: 0px;
+ opacity: 0.5;
+}
+.img_2
+{
+ margin-top: 0px;
+ padding: 0px;
+ opacity: 0.5;
+}
+
+.img_3
+{
+ margin-top: 0px;
+ padding: 0px;
+ opacity: 0.5;
+}
+
+.emotions
+{
+margin-left: 12%;
+}
+
+td{
+	margin: 0px;
+	padding: 0px;
+}
+
+
+
+
+#choice1, #choice2, #choice3, #choice4, #choice5, #choice6 {
+	margin-top: -80px;
+}
+
+.imgDescription {
+position: absolute;
+width: 525px;
+height: 50px;
+  background: rgba(155, 155, 155, 0.72);
+  color: #fff;
+  font-family:  "FuturaLight", Helvetica;
+  font-size: 35px;
+  text-align: center;
+  padding-top: 30px;
+
+
+  visibility: hidden;
+  opacity: 0;
+}
+
+.imgWrap:hover {
+cursor: pointer;
+}
+
+.imgWrap:hover .imgDescription {
+  visibility: visible;
+  opacity: 1;
+}
+
+
+.nav_arrow {
+	position:absolute;
+	margin-top: -55%;
+	opacity: 0.3;
+}
+
+.nav_arrow2 {
+
+margin-top: -30%;
+}
+
+.nav_arrow:hover {
+opacity: 0.6;
+cursor: pointer;
+}
+
+#arrow_left {
+	margin-left: 2%;
+}
+
+
+#arrow_right {
+	margin-left: 92%;
+}
+
+
+.arrow_text {
+	color: white;
+	position: absolute;
+	font-family:  "Futura", Helvetica;
+  font-size: 25px;
+  text-align: center;
+  margin-top: -40%;
+  margin-left: 3%;
+  opacity: 0.4;
+  visibility: hidden;
+}
+
+.facebook {
+	width: 90%;
+	height: auto;
+
+}
+
+.ifeel {
+	margin-top: -10px;
+	width: 95%;
+	height: auto;
+}
+
+form {
+	position: absolute;
+}
+
+textarea.textbox {
+
+margin-top: 17px;
+margin-left: 108px;
+	width: 340px;
+	height: 52px;
+	border-radius: 5px;
+
+}
+
+#share_button {
+	position: absolute;
+	width: 40px;
+	height: 20px;
+	margin-left: 356px;
+	margin-top: 195px;
+}
+
+#share_button:hover {
+	cursor: pointer;
+	}
+	
+#cancel_button {
+	position: absolute;
+	width: 40px;
+	height: 20px;
+	margin-left: 405px;
+	margin-top: 195px;
+}
+
+#cancel_button:hover {
+	cursor: pointer;
+	}
+	
+	
+	
+	#share_button2 {
+	position: absolute;
+	width: 40px;
+	height: 20px;
+	margin-left: 374px;
+	margin-top: 195px;
+}
+
+#share_button2:hover {
+	cursor: pointer;
+	}
+	
+#cancel_button2 {
+	position: absolute;
+	width: 40px;
+	height: 20px;
+	margin-left: 423px;
+	margin-top: 195px;
+}
+
+#cancel_button2:hover {
+	cursor: pointer;
+	}
+
+.arrowwrap:hover .arrow_text {
+  visibility: visible;
+}
+
+#arrow_text_right {
+margin-left: 88%;
+
+}
+
+
+
+
+body:hover{
+cursor: pointer;
+}
+
+.icon
+{
+	
+	width: 80px;
+
+}
+
+.icon:hover
+{
+	
+	cursor: pointer;
+
+}
+
+
+.icons {
+	position: abolute;
+	margin-top: 700px;
+	margin-left: 25%;
+	padding:5px;
+	text-align: center;
+	opacity: 0.1;
+	width: 45%;
+	background-color: black;
+	border-radius:15px;
+}
+
+.icons:hover {
+	opacity: 0.6;
+}
+
+
+
+.slideshow {
+	position: absolute;
+	margin-left: -5%;
+	margin-top: -60%;
+	margin-bottom: -10px;
+	width: 1600px;
+	height: 1000px;
+	opacity: 0.8;
+	z-index: -1;
+}
+
+#happy_color {
+	position: absolute;
+	margin-top: -85%;
+	float: left;
+	z-index: -2;
+	opacity: 0.5; 
+	overflow:hidden; 
+	width: 1500px; 
+	height: 1800px;
+}
+
+
+
+#control_icons {
+	float: left;
+	margin-left: 50px;
+}
+
+#close_icon: {
+	opacity: 0.3;
+}
+
+
+#close_icon:hover {
+	opacity: 1.0;
+}
+
+.icon_group{
+	display: inline;
+}
+
+.bar {
+	position: absolute;
+	width: 15px;
+	height: 15px;
+	margin-left: -8px;
+	margin-right: 50px;
+	background-color: white;
+	margin-top: 35px;
+	opacity: 0.2;
+	border-radius:25px;
+}
+
+#share_close {
+	margin-left: 25px;
+
+}
+
+.demo {
+  background: #969696;
+  width: 400px;
+  height:300px;
+  color: white;
+  font-size: 50px;
+  font-family: verdana;
+    position:absolute;
+}
+#debug
+{
+    position:absolute;
+    top:350px;
+}
+
+
+.moodbox {
+	font-family: "FuturaLight", Helvetica;
+	font-size: 50px;
+	font-weight:bold;
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 10px;
+}
+
+.sharebutton {
+	width: 300px;
+	text-align: center;
+	margin: 10px;
+	opacity: 0.7;
+}
+
+
+.sharebutton:hover {
+	opacity: 1.0;
+	cursor: pointer;
+}
+
